@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="STAGE">
+      <UniqueIdentifier>{365668a7-4315-4e28-9849-e40a54dfa564}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TITLE">
+      <UniqueIdentifier>{ae8b9fb4-b2af-40ee-8132-50f1fa86b1f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GAME">
+      <UniqueIdentifier>{69093a36-0dc1-43d9-81ec-a425d9671113}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="STAGE.cpp">
+      <Filter>STAGE</Filter>
+    </ClCompile>
+    <ClCompile Include="TITLE.cpp">
+      <Filter>TITLE</Filter>
+    </ClCompile>
+    <ClCompile Include="GAME.cpp">
+      <Filter>GAME</Filter>
+    </ClCompile>
+    <ClCompile Include="gmain.cpp">
+      <Filter>GAME</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resource.rc">
+      <Filter>リソース ファイル</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cpp.hint">
+      <Filter>リソース ファイル</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="STAGE.h">
+      <Filter>STAGE</Filter>
+    </ClInclude>
+    <ClInclude Include="TITLE.h">
+      <Filter>TITLE</Filter>
+    </ClInclude>
+    <ClInclude Include="GAME.h">
+      <Filter>GAME</Filter>
+    </ClInclude>
+    <ClInclude Include="GAME_STATE.h">
+      <Filter>GAME</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
